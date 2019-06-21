@@ -1,2 +1,2 @@
 # Exchange
-Exchane powershell commands
+Exchange powershell commands
