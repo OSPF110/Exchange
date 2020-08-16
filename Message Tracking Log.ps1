@@ -1,0 +1,1 @@
+Get-MessageTrackingLog -Server "nameofsever" -Start "05/21/19 00:00:00" -End "05/22/19 23:59:59" -Recipient "email@consoto.com" ResultSize - "Unlimited" | select sender, recipient, timestamp, messagesubject, totalbytes | export-csv

@@ -1,0 +1,2 @@
+$dbs = Get-MailboxDatabase
+$dbs | foreach {Get-MailboxStatistics -Database $_.DistinguishedName} | where {$_.DisplayName -eq "MailBox Name"} | Format-List DisplayName,MailboxGuid,Database,DisconnectReason
