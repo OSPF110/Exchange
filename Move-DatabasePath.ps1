@@ -1,0 +1,1 @@
+Move-DatabasePath DB02 -EdbFilePath C:\Exchange\Databases\DB02\DB02.edb -LogFolderPath C:\Exchange\Logs\DB02
