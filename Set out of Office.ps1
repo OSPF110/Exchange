@@ -1,1 +1,3 @@
 Set-MailboxAutoReplyConfiguration -Identity Mailbox@consoto.com -AutoReplyState Scheduled -StartTime "12/23/2021 17:00:00" -EndTime "1/4/2022 09:00:00" -InternalMessage "enter message here" -ExternalMessage "enter message here"
+### To set OOO indefinatly use the below command
+Set-MailboxAutoReplyConfiguration -Identity Mailbox@consoto.com -AutoReplyState Enabled -InternalMessage "Enter Message Here" -ExternalMessage "Enter Message Here"
